@@ -27,7 +27,7 @@ public class player : MonoBehaviour
     private float yStart = -3.10f;
 
     
-    public int cristals = 0;
+    public int crystals = 0;
 
     void Start()
     {
@@ -127,9 +127,9 @@ public class player : MonoBehaviour
         StartCoroutine(lightRoutine());
     }
 
-    public void increaseCristals()
+    public void increaseCrystals()
     {
-        cristals++;
+        crystals++;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
